@@ -1,16 +1,10 @@
 import "./App.css";
-const Info = () => {
-  return (
-    <div>
-      <h1>Muhammad Mehadi</h1>
-      <h3>25 years old.</h3>
-    </div>
-  );
-};
+import Details from "./components/Details";
 function App() {
   return (
     <div className="App">
-      <Info />
+      <Details name={"Muhammad Mehadi"} age={"25"} />
+      <Details name={"Samrat Akbar"} age={"32"} />
     </div>
   );
 }
