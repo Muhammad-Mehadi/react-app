@@ -1,14 +1,13 @@
 import React from 'react';
 import './details.css';
 const Details = (props) => {
- var name= props.name;
+ 
   return (
-     <>
-    {name === "Muhammad Mehadi" ? <div className='details-section'>
-    <h1>{props.name}</h1>
-    <h3>{props.age} years old.</h3>
-  </div> : <div></div>}
-  </>
+      <div>
+         <h3>{props.details.name}</h3>
+         <h5>{props.details.age}</h5>
+      </div>
+  
   )
 }
 
