@@ -1,25 +1,10 @@
 import "./App.css";
-import Details from "./components/Details";
+import Form from "./components/Form";
 
 function App() {
-  const details = [
-    {
-      name: "Mehadi",
-      age: 25,
-    },
-    {
-      name: "Mithu",
-      age: 23,
-    },
-  ];
-
   return (
     <div className="App">
-      <div>
-        {details.map((detail) => (
-          <Details details={detail} />
-        ))}
-      </div>
+      <Form />
     </div>
   );
 }

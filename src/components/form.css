@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.form-section {
+  margin: 50px 50px;
+  background-color: cadetblue;
+  padding: 30px 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.form input[type="text"],
+input[type="email"] {
+  padding: 5px 5px 5px 5px;
+
+  outline: none;
+}
+button {
+  width: max-content;
+  padding: 5px 15px;
+  color: rgb(16, 67, 69);
+  cursor: pointer;
+}
+h4 {
+  color: rgb(6, 70, 72);
+}
